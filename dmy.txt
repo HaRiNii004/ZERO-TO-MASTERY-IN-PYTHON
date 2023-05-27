@@ -1,0 +1,5 @@
+username = input('enter your username: ')
+password = input('enter your password: ')
+length = len(password)
+stars = '*'* length 
+print ( 'hey! {} , your password is {} and it is {} letters long').format (username,stars,length)
